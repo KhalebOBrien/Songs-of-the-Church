@@ -29,11 +29,25 @@ const styles = StyleSheet.create({
   appScreen: {
     flex: 1,
     backgroundColor: isDarkMode ? colors.blue900 : colors.white100,
-    paddingHorizontal: Size.calcWidth(30),
+    paddingHorizontal: Size.calcWidth(20),
   },
   view: {
     flex: 1,
   },
+  list: {
+    height: Size.calcHeight(65),
+    borderBottomColor: colors.purple200,
+    borderStyle: 'solid',
+    borderBottomWidth: 1,
+    textAlignVertical: 'center',
+    alignContent: 'center'
+  },
+  listText: {
+    fontSize: 18,
+    fontFamily: fonts.MONTSERRAT_500,
+    fontWeight: '500',
+    color: isDarkMode ? colors.white100 : colors.purple900,
+  }
 });
 
 export default styles;
