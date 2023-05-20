@@ -32,5 +32,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: fonts.MONTSERRAT_500,
     fontWeight: '500',
+    paddingHorizontal: Size.calcWidth(20),
   }
 });

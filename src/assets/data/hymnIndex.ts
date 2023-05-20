@@ -5,17 +5,17 @@ export default [
     dir: "000_100/000_Battle_Hymn_of_the_Republic"
   },
   {
-    num: "001",
+    num: "0A",
     title: "Hill Called Mount Calvary",
     dir: "000_100/0A_Hill_Called_Mount_Calvary"
   },
   {
-    num: "001",
+    num: "00A",
     title: "What will you do with Jesus",
     dir: "000_100/00A_What_will_you_do_with_Jesus"
   },
   {
-    num: "002",
+    num: "001",
     title: " ",
     dir: "000_100/001_"
   },

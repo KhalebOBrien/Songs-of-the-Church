@@ -1,6 +1,5 @@
 import {View, Text, StyleSheet} from 'react-native';
 import AppSearchBox from './AppSearchBox';
-import AppViewName from './AppViewName';
 import AppThemeStyles from '../utilities/styles';
 import fonts from '../configs/fonts';
 import Size from '../utilities/useResponsiveSize';
@@ -12,10 +11,21 @@ export interface AppHeaderProps {
 
 const AppHeader = (props: AppHeaderProps): JSX.Element => {
   return (
-    <View>
-      <Text style={[AppThemeStyles.textColor, styles.heading]}>Songs Of the Church</Text>
-      <AppSearchBox/>
-      <AppViewName {...props}/>
+    <View style={AppThemeStyles.headerStyle}>
+      <Text style={[AppThemeStyles.textColor, styles.heading]}>
+        Songs Of the Church
+      </Text>
+      
+      <AppSearchBox />
+
+      <View style={styles.titleRow}>
+        <Text style={[AppThemeStyles.textColor, styles.text1]}>
+          {props.currentView}
+        </Text>
+        <Text style={[AppThemeStyles.textColor, styles.text2]}>
+          {props.button}
+        </Text>
+      </View>
     </View>
   );
 };
@@ -25,9 +35,24 @@ export default AppHeader;
 const styles = StyleSheet.create({
   heading: {
     fontFamily: fonts.MONTSERRAT_600,
-    fontSize: Size.calcWidth(24),
+    fontSize: 24,
     fontWeight: '600',
-    marginHorizontal: Size.calcWidth(18),
     flex: 1,
+    marginTop: Size.calcWidth(30),
+  },
+  titleRow: {
+    flexDirection: 'row',
+    marginTop: 36,
+  },
+  text1: {
+    flex: 1,
+    fontSize: 20,
+    fontWeight: '600',
+    fontFamily: fonts.MONTSERRAT_600,
+  },
+  text2: {
+    textDecorationLine: 'underline',
+    fontFamily: fonts.MONTSERRAT_600,
+    fontSize: 16,
   },
 });
