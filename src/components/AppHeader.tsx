@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
     fontFamily: fonts.MONTSERRAT_600,
     fontSize: 24,
     fontWeight: '600',
-    flex: 1,
     marginTop: Size.calcWidth(30),
   },
   titleRow: {

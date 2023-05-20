@@ -13,7 +13,7 @@ import AppThemeStyles from '../utilities/styles';
 interface ScreenProps extends ViewProps {
   containerStyle?: ViewStyle;
   showBackHeader?: boolean;
-  screenColor?: string;
+  isScrollable?: boolean;
 }
 
 const AppScreen = (props: ScreenProps): React.JSX.Element => {
@@ -22,6 +22,7 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
     style,
     containerStyle,
     showBackHeader,
+    isScrollable
   } = props;
 
   return (
@@ -32,11 +33,13 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
       />
       {showBackHeader && <AppBackHeader title="Back" />}
 
-      <ScrollView
+      {isScrollable && <ScrollView
         showsVerticalScrollIndicator={false}
         style={[AppThemeStyles.view, style]}>
         {children}
-      </ScrollView>
+      </ScrollView>}
+
+      {!isScrollable && children}
     </SafeAreaView>
   );
 };
