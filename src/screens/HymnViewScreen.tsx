@@ -1,10 +1,15 @@
-import {View, Text, StyleSheet} from 'react-native';
+import React from 'react';
+import {View, Text} from 'react-native';
+import styles from '../utilities/styles';
+import AppScreen from '../components/AppScreen';
 
-const HymnViewScreen = (): JSX.Element => {
+const HymnViewScreen = (): React.JSX.Element => {
   return (
-    <View>
-      <Text>HymnViewScreen</Text>
-    </View>
+    <AppScreen showBackHeader>
+      <View>
+        <Text style={[styles.text, styles.textColor]} >Hymnal View Screen</Text>
+      </View>
+    </AppScreen>
   );
 };
 
