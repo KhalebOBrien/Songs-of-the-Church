@@ -5,9 +5,9 @@ import Size from './useResponsiveSize';
 
 const isDarkMode = false;
 
-const styles = StyleSheet.create({
+const AppThemeStyles = StyleSheet.create({
   textColor: {
-    color: colors.purple900,
+    color: isDarkMode ? colors.white100 : colors.purple900,
   },
   text: {
     fontSize: 20,
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     height: Size.calcHeight(70),
     position: 'relative',
   },
+  
   appScreen: {
     flex: 1,
     backgroundColor: isDarkMode ? colors.blue900 : colors.white100,
@@ -34,20 +35,6 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
   },
-  list: {
-    height: Size.calcHeight(65),
-    borderBottomColor: colors.purple200,
-    borderStyle: 'solid',
-    borderBottomWidth: 1,
-    textAlignVertical: 'center',
-    alignContent: 'center'
-  },
-  listText: {
-    fontSize: 18,
-    fontFamily: fonts.MONTSERRAT_500,
-    fontWeight: '500',
-    color: isDarkMode ? colors.white100 : colors.purple900,
-  }
 });
 
-export default styles;
+export default AppThemeStyles;

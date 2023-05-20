@@ -8,7 +8,7 @@ import {
 
 import AppBackHeader from './AppBackHeader';
 import React from 'react';
-import styles from '../utilities/styles';
+import AppThemeStyles from '../utilities/styles';
 
 interface ScreenProps extends ViewProps {
   containerStyle?: ViewStyle;
@@ -25,7 +25,7 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
   } = props;
 
   return (
-    <SafeAreaView style={[styles.appScreen, containerStyle]}>
+    <SafeAreaView style={[AppThemeStyles.appScreen, containerStyle]}>
       <StatusBar
         animated={true}
         hidden={true}
@@ -34,7 +34,7 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
-        style={[styles.view, style]}>
+        style={[AppThemeStyles.view, style]}>
         {children}
       </ScrollView>
     </SafeAreaView>

@@ -1,21 +1,15 @@
-import {Text, TextProps} from 'react-native';
+import {Text, TextProps, StyleSheet} from 'react-native';
 
-import colors from '../configs/colors';
 import fonts from '../configs/fonts';
 import Size from '../utilities/useResponsiveSize';
-// import {useThemeStore} from '@src/store/themeStore';
+import AppThemeStyles from '../utilities/styles';
 
 const AppText = ({children, style, ...otherProps}: TextProps) => {
-  // const {isDarkMode} = useThemeStore();
-  const isDarkMode = false;
   return (
     <Text
       style={[
-        {
-          fontSize: Size.calcWidth(16),
-          fontFamily: fonts.MONTSERRAT_600,
-          color: isDarkMode ? colors.white100 : colors.purple900,
-        },
+        AppThemeStyles.textColor,
+        styles.text,
         style,
       ]}
       {...otherProps}>
@@ -25,3 +19,10 @@ const AppText = ({children, style, ...otherProps}: TextProps) => {
 };
 
 export default AppText;
+
+const styles = StyleSheet.create({
+  text: {
+    fontSize: Size.calcWidth(16),
+    fontFamily: fonts.MONTSERRAT_600,
+  }
+});

@@ -9,7 +9,7 @@ import Size from '../utilities/useResponsiveSize';
 import colors from '../configs/colors';
 import React from 'react';
 // import {useThemeStore} from '@src/store/themeStore';
-import styles from '../utilities/styles';
+import AppThemeStyles from '../utilities/styles';
 
 export interface IAppBackHeader {
   isPaddedHorizontal?: boolean;
@@ -42,7 +42,7 @@ const AppBackHeader = ({
     <View
       style={[
         isPaddedHorizontal && {paddingHorizontal: Size.calcWidth(24)},
-        styles.container,
+        AppThemeStyles.container,
         style,
       ]}>
       <Pressable hitSlop={Size.calcAverage(20)} onPress={handleNavigation}>
@@ -52,7 +52,7 @@ const AppBackHeader = ({
           style={[{color: colors.white100}, arrowStyle]}
         />
       </Pressable>
-      <AppText style={[styles.title, titleStyle]}>
+      <AppText style={[AppThemeStyles.title, titleStyle]}>
         {title}
       </AppText>
 
