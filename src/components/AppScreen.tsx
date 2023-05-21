@@ -6,13 +6,11 @@ import {
   StatusBar,
 } from 'react-native';
 
-import AppBackHeader from './AppBackHeader';
 import React from 'react';
 import AppThemeStyles from '../utilities/styles';
 
 interface ScreenProps extends ViewProps {
   containerStyle?: ViewStyle;
-  showBackHeader?: boolean;
   isScrollable?: boolean;
 }
 
@@ -21,7 +19,6 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
     children,
     style,
     containerStyle,
-    showBackHeader,
     isScrollable
   } = props;
 
@@ -31,7 +28,6 @@ const AppScreen = (props: ScreenProps): React.JSX.Element => {
         animated={true}
         hidden={true}
       />
-      {showBackHeader && <AppBackHeader title="Back" />}
 
       {isScrollable && <ScrollView
         showsVerticalScrollIndicator={false}

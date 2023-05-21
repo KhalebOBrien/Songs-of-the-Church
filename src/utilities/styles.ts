@@ -13,6 +13,12 @@ const AppThemeStyles = StyleSheet.create({
     fontSize: 20,
     fontWeight: '600',
   },
+  appHeaderStyle: {
+    backgroundColor: isDarkMode ? colors.blue900 : colors.white100,
+    fontFamily: fonts.MONTSERRAT_600,
+    fontSize: 20,
+    marginHorizontal: Size.calcWidth(18),
+  },
   appScreen: {
     flex: 1,
     backgroundColor: isDarkMode ? colors.blue900 : colors.white100,

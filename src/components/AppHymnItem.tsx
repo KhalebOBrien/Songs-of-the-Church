@@ -1,21 +1,32 @@
-import {Text, StyleSheet} from 'react-native';
+import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 import AppThemeStyles from '../utilities/styles';
 import colors from '../configs/colors';
 import fonts from '../configs/fonts';
 import Size from '../utilities/useResponsiveSize';
+import { useNavigation } from '@react-navigation/native';
+
+
 export interface IAppHymnItem {
-  num?: string;
+  num: string;
   title: string;
-  dir?: string;
+  dir: string;
 }
 
-const AppHymnItem = ({
-  num,
-  title,
-  dir
-}: IAppHymnItem): JSX.Element => {
+const AppHymnItem = (props: IAppHymnItem): JSX.Element => {
+  const navigation = useNavigation();
+
+  const loadHymn = (dir: string) => {
+    navigation.navigate('Hymn View', { dir });
+  }
+
   return (
-    <Text style={[AppThemeStyles.textColor, styles.text]}>{`${num} ${title}`}</Text>
+    <TouchableOpacity
+      onPress={() => loadHymn(props.dir)}
+    >
+      <Text
+        style={[AppThemeStyles.textColor, styles.text]}
+      >{`${props.num} ${props.title}`}</Text>
+    </TouchableOpacity>
   );
 };
 
@@ -33,5 +44,5 @@ const styles = StyleSheet.create({
     fontFamily: fonts.MONTSERRAT_500,
     fontWeight: '500',
     paddingHorizontal: Size.calcWidth(20),
-  }
+  },
 });
