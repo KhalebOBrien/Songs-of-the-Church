@@ -4,6 +4,7 @@ import colors from '../configs/colors';
 import fonts from '../configs/fonts';
 import Size from '../utilities/useResponsiveSize';
 import { useNavigation } from '@react-navigation/native';
+import React from 'react';
 
 
 export interface IAppHymnItem {
@@ -12,7 +13,7 @@ export interface IAppHymnItem {
   dir: string;
 }
 
-const AppHymnItem = (props: IAppHymnItem): JSX.Element => {
+const AppHymnItem = (props: IAppHymnItem): React.JSX.Element => {
   const navigation = useNavigation();
 
   const loadHymn = (dir: string) => {

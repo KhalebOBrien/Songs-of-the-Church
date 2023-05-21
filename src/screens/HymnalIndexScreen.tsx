@@ -4,17 +4,8 @@ import AppHeader from '../components/AppHeader';
 import AppScreen from '../components/AppScreen';
 import AppHymnItem from '../components/AppHymnItem';
 import hymnIndex from '../assets/data/hymnIndex';
-// import HymnViewScreen from './HymnViewScreen';
 
 const HymnalIndexScreen = (): React.JSX.Element => {
-
-  // const callback = (dir: string) => {
-  //   console.log('hereeee...');
-  //   return (
-  //     <HymnViewScreen dir={dir} />
-  //   )
-  // }
-
   return (
     <AppScreen>
       <AppHeader currentView="All Hymns" button="View Recent" />
@@ -26,7 +17,6 @@ const HymnalIndexScreen = (): React.JSX.Element => {
               num={hymn.num}
               title={hymn.title}
               dir={hymn.dir}
-              // loadHymn={callback}
             />
           );
         })}

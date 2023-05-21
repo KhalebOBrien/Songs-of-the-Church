@@ -23,6 +23,22 @@
 		BF2792E30FC04AFF9B14E4C4 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76A2EACDACC94AFE935EF5EB /* Montserrat-Regular.ttf */; };
 		9A9C8BA5E3484DDCA6B1055E /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FD68E77C4A0478DB55451A4 /* Montserrat-SemiBold.ttf */; };
 		5DF933CB84DD4E1197E01129 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B70010F1DC074D0492742199 /* Montserrat-Thin.ttf */; };
+		17E915F89950434E87A0FD8D /* Slide1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3D50DAF88F8C4658A953BC58 /* Slide1.PNG */; };
+		B88AD335C76649BA9E52CD22 /* Slide10.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 16413198BB494B26BFEFD080 /* Slide10.PNG */; };
+		7898CC727F6747D69339FB16 /* Slide11.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 87EF26A2F6304A37BF69DE6C /* Slide11.PNG */; };
+		CBE701F9BE024835AF8164F0 /* Slide12.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AB1335DEE6D84F43B780C0DB /* Slide12.PNG */; };
+		C0B26B92717D4097AEFBD3BD /* Slide2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC936E7F3648DE89AF5A64 /* Slide2.PNG */; };
+		F16673F326774822BAE0BB87 /* Slide3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B4E089353BD24018AA494634 /* Slide3.PNG */; };
+		80570E974C414201B3C86567 /* Slide4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2A21F76609F1441E9DFD749F /* Slide4.PNG */; };
+		E1D653DB216A4F46A5FBD3C7 /* Slide5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D1A560E9A54848C9AB37BC63 /* Slide5.PNG */; };
+		354D2F7922E5461C9237E6AB /* Slide6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A0358259B4DD698F090C8 /* Slide6.PNG */; };
+		0CF0C31F4DAE4DAA9D02DAD3 /* Slide7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BFAF8385AC524AB8BF650A4F /* Slide7.PNG */; };
+		22C3C37C660E40F1AE85EDDB /* Slide8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CDA6A69030C54BB2926C624F /* Slide8.PNG */; };
+		799F75D8BAAC43C7875C1469 /* Slide9.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 32EFAE9065944C38A8086E33 /* Slide9.PNG */; };
+		EAF969B4B3CD480C9B107328 /* Slide13.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3022B9A2E9854D3C81291245 /* Slide13.PNG */; };
+		160F45A6AAC9417B8A61D418 /* Slide14.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C3912517AB354F67A8FFC1BC /* Slide14.PNG */; };
+		3430DFE607E1430C97485727 /* Slide15.PNG in Resources */ = {isa = PBXBuildFile; fileRef = ECF674BE970043708DC222A2 /* Slide15.PNG */; };
+		AD12EA1A2DDC40348277709D /* Slide16.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3B75DE082F36485DAEFFAD60 /* Slide16.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +78,22 @@
 		76A2EACDACC94AFE935EF5EB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2FD68E77C4A0478DB55451A4 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B70010F1DC074D0492742199 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D50DAF88F8C4658A953BC58 /* Slide1.PNG */ = {isa = PBXFileReference; name = "Slide1.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide1.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16413198BB494B26BFEFD080 /* Slide10.PNG */ = {isa = PBXFileReference; name = "Slide10.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide10.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87EF26A2F6304A37BF69DE6C /* Slide11.PNG */ = {isa = PBXFileReference; name = "Slide11.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide11.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB1335DEE6D84F43B780C0DB /* Slide12.PNG */ = {isa = PBXFileReference; name = "Slide12.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide12.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AEC936E7F3648DE89AF5A64 /* Slide2.PNG */ = {isa = PBXFileReference; name = "Slide2.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide2.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4E089353BD24018AA494634 /* Slide3.PNG */ = {isa = PBXFileReference; name = "Slide3.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide3.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A21F76609F1441E9DFD749F /* Slide4.PNG */ = {isa = PBXFileReference; name = "Slide4.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide4.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1A560E9A54848C9AB37BC63 /* Slide5.PNG */ = {isa = PBXFileReference; name = "Slide5.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide5.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C5A0358259B4DD698F090C8 /* Slide6.PNG */ = {isa = PBXFileReference; name = "Slide6.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide6.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFAF8385AC524AB8BF650A4F /* Slide7.PNG */ = {isa = PBXFileReference; name = "Slide7.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide7.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDA6A69030C54BB2926C624F /* Slide8.PNG */ = {isa = PBXFileReference; name = "Slide8.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide8.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32EFAE9065944C38A8086E33 /* Slide9.PNG */ = {isa = PBXFileReference; name = "Slide9.PNG"; path = "../src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide9.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3022B9A2E9854D3C81291245 /* Slide13.PNG */ = {isa = PBXFileReference; name = "Slide13.PNG"; path = "../src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide13.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3912517AB354F67A8FFC1BC /* Slide14.PNG */ = {isa = PBXFileReference; name = "Slide14.PNG"; path = "../src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide14.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECF674BE970043708DC222A2 /* Slide15.PNG */ = {isa = PBXFileReference; name = "Slide15.PNG"; path = "../src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide15.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B75DE082F36485DAEFFAD60 /* Slide16.PNG */ = {isa = PBXFileReference; name = "Slide16.PNG"; path = "../src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide16.PNG"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +211,22 @@
 				76A2EACDACC94AFE935EF5EB /* Montserrat-Regular.ttf */,
 				2FD68E77C4A0478DB55451A4 /* Montserrat-SemiBold.ttf */,
 				B70010F1DC074D0492742199 /* Montserrat-Thin.ttf */,
+				3D50DAF88F8C4658A953BC58 /* Slide1.PNG */,
+				16413198BB494B26BFEFD080 /* Slide10.PNG */,
+				87EF26A2F6304A37BF69DE6C /* Slide11.PNG */,
+				AB1335DEE6D84F43B780C0DB /* Slide12.PNG */,
+				4AEC936E7F3648DE89AF5A64 /* Slide2.PNG */,
+				B4E089353BD24018AA494634 /* Slide3.PNG */,
+				2A21F76609F1441E9DFD749F /* Slide4.PNG */,
+				D1A560E9A54848C9AB37BC63 /* Slide5.PNG */,
+				3C5A0358259B4DD698F090C8 /* Slide6.PNG */,
+				BFAF8385AC524AB8BF650A4F /* Slide7.PNG */,
+				CDA6A69030C54BB2926C624F /* Slide8.PNG */,
+				32EFAE9065944C38A8086E33 /* Slide9.PNG */,
+				3022B9A2E9854D3C81291245 /* Slide13.PNG */,
+				C3912517AB354F67A8FFC1BC /* Slide14.PNG */,
+				ECF674BE970043708DC222A2 /* Slide15.PNG */,
+				3B75DE082F36485DAEFFAD60 /* Slide16.PNG */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -289,6 +337,22 @@
 				BF2792E30FC04AFF9B14E4C4 /* Montserrat-Regular.ttf in Resources */,
 				9A9C8BA5E3484DDCA6B1055E /* Montserrat-SemiBold.ttf in Resources */,
 				5DF933CB84DD4E1197E01129 /* Montserrat-Thin.ttf in Resources */,
+				17E915F89950434E87A0FD8D /* Slide1.PNG in Resources */,
+				B88AD335C76649BA9E52CD22 /* Slide10.PNG in Resources */,
+				7898CC727F6747D69339FB16 /* Slide11.PNG in Resources */,
+				CBE701F9BE024835AF8164F0 /* Slide12.PNG in Resources */,
+				C0B26B92717D4097AEFBD3BD /* Slide2.PNG in Resources */,
+				F16673F326774822BAE0BB87 /* Slide3.PNG in Resources */,
+				80570E974C414201B3C86567 /* Slide4.PNG in Resources */,
+				E1D653DB216A4F46A5FBD3C7 /* Slide5.PNG in Resources */,
+				354D2F7922E5461C9237E6AB /* Slide6.PNG in Resources */,
+				0CF0C31F4DAE4DAA9D02DAD3 /* Slide7.PNG in Resources */,
+				22C3C37C660E40F1AE85EDDB /* Slide8.PNG in Resources */,
+				799F75D8BAAC43C7875C1469 /* Slide9.PNG in Resources */,
+				EAF969B4B3CD480C9B107328 /* Slide13.PNG in Resources */,
+				160F45A6AAC9417B8A61D418 /* Slide14.PNG in Resources */,
+				3430DFE607E1430C97485727 /* Slide15.PNG in Resources */,
+				AD12EA1A2DDC40348277709D /* Slide16.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

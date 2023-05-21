@@ -36,6 +36,70 @@
     {
       "path": "src/assets/fonts/Montserrat-Thin.ttf",
       "sha1": "5ea7caf6d98fbb75eec2bd9396f5a1ac1e172df6"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide1.PNG",
+      "sha1": "f1e191b06c3d8b1a954249d0233b488f071ed12b"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide10.PNG",
+      "sha1": "b3001833bcaf03ee20a43b664567a109b7e04f5d"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide11.PNG",
+      "sha1": "e3297ce8acfb476cf08cf55e10a64eba4056e248"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide12.PNG",
+      "sha1": "e5aa9261f1bc150fe033d945437a9f58c427ec52"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide2.PNG",
+      "sha1": "6b65a603f981fcea22b83bc1f241b5c8a7122641"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide3.PNG",
+      "sha1": "3951c1a970bd4be7c26755986687158571dca685"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide4.PNG",
+      "sha1": "082b59565795faef0d26c129955a572bfa26a352"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide5.PNG",
+      "sha1": "48df49516d675ad84006abd6de8a3acc091d9f6f"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide6.PNG",
+      "sha1": "348d29d08aaeb9c5230de3e09dff27edad407dd6"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide7.PNG",
+      "sha1": "e1f6887f492d052011ab9aab05248e4805ff3507"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide8.PNG",
+      "sha1": "34c1ba132746300e3572c316e486d37e5037f5cd"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/000_Battle_Hymn_of_the_Republic/Slide9.PNG",
+      "sha1": "780d57324a94310ce66d1fc9c5d122a0861a97b9"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide13.PNG",
+      "sha1": "159554dc1580b71653dde201ffabf31eb0a6da6c"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide14.PNG",
+      "sha1": "15ec1af8580ea82a0dec46d45da93c7e1a82c5aa"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide15.PNG",
+      "sha1": "9ce8766e2d45b8a2f191d4e0a41bfea8edb1f053"
+    },
+    {
+      "path": "src/assets/hymnals/000_100/00A_What_will_you_do_with_Jesus/Slide16.PNG",
+      "sha1": "f1b42dec6ac710813913cd657467063cc10b2a23"
     }
   ]
 }
